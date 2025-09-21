@@ -1,0 +1,22 @@
+:root {
+    --dark-theme: #1e1e1e;
+    --dark-values-bg-color: #333333;
+}
+body {
+    background-color: var(--dark-theme);
+}
+
+#viewport.color {
+    height: calc(vh / 2);
+    width: calc(vh / 2);
+    align-self: center;
+}
+
+#values.container {
+    position: absolute;
+    background-color: var(--dark-values-bg-color);
+    width: calc(vh / 2);
+    height: 25%;
+    align-self: center;
+    bottom: 0;
+}
