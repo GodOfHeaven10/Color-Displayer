@@ -2,6 +2,7 @@
     --dark-theme: #1e1e1e;
     --dark-values-bg-color: #333333;
     --dark-theme-outline: #101010;
+    --dark-theme-text: #dddddd;
 }
 body {
     background-color: var(--dark-theme);
@@ -19,6 +20,7 @@ html, body {
     justify-self: center;
     border-radius: 5%;
     outline: 0.25em solid var(--dark-theme-outline);
+    margin-top: 5px;
 }
 
 #values.container {
@@ -31,4 +33,21 @@ html, body {
     margin-bottom: 25px;
     border-radius: 25px;
     outline: 0.25em solid var(--dark-theme-outline);
+}
+
+#hexInp.input {
+    background-color: var(--dark-theme-outline);
+    width: 75%;
+    height: 10%;
+}
+
+#hex.input {
+    color: var(--dark-theme-text);
+    font-size: medium;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    right: 0;
 }
